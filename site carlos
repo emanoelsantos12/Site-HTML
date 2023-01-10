@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARLOS OFICINA</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="interface">
+    <header id="principal"><h1>AUTO ELÉTRICA RIBEIRO</h1></header>
+    <section id="corpo">
+    <article id="texto">
+        <header id="segundo"><h2>Serviços Automotivos</h2></header>
+            <h3>Elétrica - Ar-condicionado</h3>
+            <figure class="foto-legenda">
+                <img src=" _img/a.jpeg"/>
+                    <figcaption>
+                        <h3>BEM VINDO!.</h3>
+                            <p>OLA!.</p>
+                    </figcaption>
+                </figure>
+            <h3>ESPECIFICAÇÕES:</h3>
+		<p>Injeção Eletrônica - Troca de Óleo - Baterias - Motor e Caixa de Marcha - Ar Condicionado - Freios - Acessórios - Suspensão - Peças e Serviços</p>
+        
+        <h3>Video interativo:</h3>
+        <video id="filme" controls="controls" poster="_img/video-mini03.jpg">
+            <source src="_media/getting-started.mp4" type="video/mp4"/>
+            <source src="_media/getting-started.webm" type="video/webm"/>
+            <source src="_media/getting-started.ogv" type="video/ogg"/>
+            Desculpe, mas não foi possível carregar o vídeo.
+        </video>
+
+        <div id="businesshour">
+          
+            <ins></ins>
+            <h4><strong><font color="#000">Hor&aacute;rio de funcionamento:</font></strong></h4>
+<ins></ins>
+<p><span><font color="#000">Segunda</font></span><b>
+<font color='green'>08:00 as 18:00</font></b>
+<b></b></p>
+<p><span><font color="#000">Ter&ccedil;a</font></span><b>
+<font color='green'>08:00 as 18:00</font></b>
+<b></b>
+<span><font color="#000">Quarta</font></span><b>
+<font color='green'>08:00 as 18:00</font></b>
+<b></b>
+<span><font color="#000">Quinta</font></span><b>
+<font color='green'>08:00 as 18:00</font></b>
+<b></b>
+<span><font color="#000">Sexta</font></span><b>
+<font color='green'>08:00 as 18:00</font></b>
+<b></b>
+<span><font color="#000">S&aacute;bado</font></span><b>
+<font color='red'>08:00 as 12:00</font></b>
+<b></b>
+<span><font color="#000">Domingo</font></span><b>
+<font color='red'>00:00 as 00:00</font>
+</b>
+<b></b></p>
+</div>
+    </article>
+    </section>
+    <aside id="lateral">
+        <section id="contatos">
+            <h3>Contatos:</h3>
+            <p>
+                LINKS:
+            <p>
+            <li onmousemove="mudaFoto('_imagens/contato.png')"onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')""><a href="https://wa.me/5594991835738?text=Ola!%20Emanoel%20Tenho%20interesse%20no%20seu%20trabalho,%20esta%20Dísponivel%20?" target="_blank">Whatsapp</a></li>
+            <li onmousemove="mudaFoto('_imagens/contato.png')"onmouseout="mudaFoto('_imagens/contato.png')""><a href="https://www.instagram.com/ribeiro_autoeletrica/?igshid=YmMyMTA2M2Y%3D">Instagram</a></li>  <li onmousemove="mudaFoto('_imagens/contato.png')"onmouseout="mudaFoto('_imagens/contato.png')""><a href="https://www.facebook.com/cirlene.souza.925?comment_id=Y29tbWVudDo0MTk4MzUxMTU2OTA5NDExXzQxOTkzOTQ5OTY4MDUwMjc%3D">Facebook</a></li>
+            </p>
+        </p>
+            </section>
+
+            <fieldset id="cidades">
+          <h3>Cidades que atendo:</h3>
+            <hgroup>
+              <a href="https://www.google.com.br/maps/place/Marab%C3%A1,+PA/@-5.3373634,-49.1710489,12z/data=!3m1!4b1!4m5!3m4!1s0x92c3a11f6e9a3be7:0xd5164004425256e9!8m2!3d-5.3671088!4d-49.1231346" target="_blank"><p>Marabá</p></a>
+            <p>Eldorado</p>
+             <p>Parauapebas</p>
+             <p>Canaã dos Carajás</p>
+            </hgroup>
+            </fieldset>
+
+        <fieldset id="mensagem"><legend>MENSAGEM:</legend>
+            <p id="ab"><label for="cmsg">DIGITE</label></p><p>
+            <textarea name="tmsg" id="cmsg" cols="45" rows="5" placeholder="Deixe aqui sem Mensagem">
+            </textarea></p>
+            <input type="button" value="Verificar" onclick="Verificar()">    
+        </fieldset>
+            
+        </aside>
+
+        
+</div>
+<footer id="rodape">
+
+    <p>Copyright &copy; 2022 - by Emanoel Santos <br/>
+    </br><a href="https://www.facebook.com/profile.php?id=100048244651724" target="_blank"> Facebook</a>
+        <a href="" target="_blank"> Twitter</a>
+        <a href=" https://wa.me/5594992574521?text=Ola!%20Emanoel%20Tenho%20interesse%20no%20seu%20trabalho,%20esta%20Dísponivel%20?" target="_blank"> whatsapp</a></p>
+        </footer>
+<script src="script.js"></script> <!--carrega arquivo script-->
+</body>
+</html>
